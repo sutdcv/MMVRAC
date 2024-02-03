@@ -10,21 +10,21 @@ Hence, we hope to further advance such developments in multi-modal video reasoni
 
 Register for the competition here: [https://forms.office.com/r/yW5NWdWXxN](https://forms.office.com/r/yW5NWdWXxN)
 
-* Participants will take on any one of the tracks in [CHALLENGE TRACKS](#CHALLENGE-TRACKS). This means tackling any one of the tasks in the corresponding dataset (e.g., Spatiotemporal Action Localization using Chaotic World dataset). The models will be evaluated using the published test set and evaluation metrics found in each respective paper. Please see [CHALLENGE TRACKS](#CHALLENGE-TRACKS) section for more details on each task. 
+* Participants will take on any one of the tracks in [CHALLENGE TRACKS](#challenge-tracks). This means tackling any one of the tasks in the corresponding dataset (e.g., Spatiotemporal Action Localization using Chaotic World dataset). The models will be evaluated using the published test set and evaluation metrics found in each respective paper. Please see [CHALLENGE TRACKS](#challenge-tracks) section for more details on each task. 
   * The Grand Challenge is open to individuals from institutions of higher education, research institutes, enterprises, or other organizations.
     * Each team can consist of a maximum of 6 members. The team can comprise individuals from different institutions or organizations. 
     * Participants can also participate as individuals.
     * Participants / Each team can take part in more than one track. 
     * Participants are required to register their interest to participate in the Challenge here: https://forms.office.com/r/yW5NWdWXxN
-  * Participants are required to submit their results and runnable codes by the [Challenge submission deadline](#CHALLENGE-TIMELINE). 
-    * Participants are to adhere to the terms and criteria stated in the [SUBMISSION GUIDELINES](#SUBMISSION-GUIDELINES). 
-    * The methods and codes need to be open-source and reproducible. Please see [SUBMISSION GUIDELINES](#SUBMISSION-GUIDELINES) for more details.
+  * Participants are required to submit their results and runnable codes by the [Challenge submission deadline](#challenge-timeline). 
+    * Participants are to adhere to the terms and criteria stated in the [SUBMISSION GUIDELINES](#submission-guidelines). 
+    * The methods and codes need to be open-source and reproducible. Please see [SUBMISSION GUIDELINES](#submission-guidelines) for more details.
     * Participants can utilize one or more modalities provided in the dataset for the task.
     * Participants can also use other datasets or pre-trained models etc to assist in the model development. 
   * All participants who successfully complete the Challenge by the Challenge deadline will receive a Certificate of Participation. 
 
 * The top three teams of each track will have to present at the Grand Challenge workshop, either at the Winner’s Flash Talks (Oral) or poster and networking session. This is so that the workshop participants can learn about the various approaches that are useful in tackling the task at hand.
-  * These top teams are also required to submit a paper submission (See [Challenge submission deadline](#CHALLENGE-TIMELINE)). 
+  * These top teams are also required to submit a paper submission (See [Challenge submission deadline](#challenge-timeline)). 
     * The Challenge results will be released on 28 March 2024. They will have to submit their papers on 06 April 2024 UTC 23:59:00. 
   * The top three teams will receive the Winners' Certificate and their work (and link to their code repository) will be featured on this website.
 
@@ -70,10 +70,11 @@ Track #12: Animal Pose Estimation for Protocol 1 (All animals)
 
 ## CHALLENGE TIMELINE  
 Date                          | Event
+
 ----------------------------- | -------------------------------------------
 
 05 February 2024 UTC 00:00:00 | Challenge starts                         
-25 March 2024 UTC 23:59:00    | Deadline for [Challenge submission](#CHALLENGE-SUBMISSION-LINK)
+25 March 2024 UTC 23:59:00    | Deadline for [Challenge submission](#challenge-submission-link)
 28 March 2024                 | Release of Challenge results
 06 April 2024 UTC 23:59:00    | Deadline for submitting invited papers
 11 April 2024 UTC 23:59:00    | Notification of paper acceptance
@@ -98,8 +99,8 @@ Date                          | Event
     
 ### Paper submission for the top submission of each track
 * The paper submission will follow [ICME 2024 guidelines](https://2024.ieeeicme.org/author-information-and-submission-instructions)
-* The top three teams of each track will be notified by 28 March 2024 as stated in [Challenge submission deadline](#CHALLENGE-TIMELINE).
-  * These teams will need to submit the paper by 06 April 2024 as stated in [Challenge submission deadline](#CHALLENGE-TIMELINE), submit the camera-ready paper by the author deadline, register for the conference (01 May 2024), and present at the conference; otherwise they will not be included in IEEE Xplore.
+* The top three teams of each track will be notified by 28 March 2024 as stated in [Challenge submission deadline](#challenge-timeline).
+  * These teams will need to submit the paper by 06 April 2024 as stated in [Challenge submission deadline](#challenge-timeline), submit the camera-ready paper by the author deadline, register for the conference (01 May 2024), and present at the conference; otherwise they will not be included in IEEE Xplore.
     * Length: Papers must be no longer than 6 pages, including all text, figures, and references. Submissions may be accompanied by up to 20 MB of supplemental material following the same guidelines as regular and special session papers.
     * Format: Workshop papers have the same format as regular papers. 
   * A Grand Challenge paper is covered by a full-conference registration only.
