@@ -8,14 +8,15 @@ Hence, we hope to further advance such developments in multi-modal video reasoni
 
 ## CHALLENGE DETAILS
 
-Register for the competition here: [https://forms.office.com/r/yW5NWdWXxN](https://forms.office.com/r/yW5NWdWXxN)
+**Participants are required to register their interest to participate in the Challenge.**
+**Please register for the competition here: [https://forms.office.com/r/yW5NWdWXxN](https://forms.office.com/r/yW5NWdWXxN)**
 
 * Participants will take on any one of the tracks in [CHALLENGE TRACKS](#challenge-tracks). This means tackling any one of the tasks in the corresponding dataset (e.g., Spatiotemporal Action Localization using Chaotic World dataset). The models will be evaluated using the published test set and evaluation metrics found in each respective paper. Please see [CHALLENGE TRACKS](#challenge-tracks) section for more details on each task. 
   * The Grand Challenge is open to individuals from institutions of higher education, research institutes, enterprises, or other organizations.
     * Each team can consist of a maximum of 6 members. The team can comprise individuals from different institutions or organizations. 
     * Participants can also participate as individuals.
     * Participants / Each team can take part in more than one track. 
-    * Participants are required to register their interest to participate in the Challenge here: https://forms.office.com/r/yW5NWdWXxN
+    * Participants are required to register their interest to participate in the Challenge here: [https://forms.office.com/r/yW5NWdWXxN](https://forms.office.com/r/yW5NWdWXxN)
   * Participants are required to submit their results and runnable codes by the [Challenge submission deadline](#challenge-timeline). 
     * Participants are to adhere to the terms and criteria stated in the [SUBMISSION GUIDELINES](#submission-guidelines). 
     * The methods and codes need to be open-source and reproducible. Please see [SUBMISSION GUIDELINES](#submission-guidelines) for more details.
@@ -74,7 +75,7 @@ Date                          | Event
 ----------------------------- | -------------------------------------------
 
 05 February 2024 UTC 00:00:00 | Challenge starts                         
-25 March 2024 UTC 23:59:00    | Deadline for [Challenge submission](#challenge-submission-link)
+**25 March 2024 UTC 23:59:00**| **Deadline for [Challenge submission](#challenge-submission-link)**
 28 March 2024                 | Release of Challenge results
 06 April 2024 UTC 23:59:00    | Deadline for submitting invited papers
 11 April 2024 UTC 23:59:00    | Notification of paper acceptance
@@ -106,7 +107,7 @@ Date                          | Event
   * A Grand Challenge paper is covered by a full-conference registration only.
   
 ## CHALLENGE SUBMISSION LINK
-Please submit your results here: [https://forms.office.com/r/DAULcDhhYY](https://forms.office.com/r/DAULcDhhYY)
+**Please submit your results here: [https://forms.office.com/r/DAULcDhhYY](https://forms.office.com/r/DAULcDhhYY)**
 
 ## ORGANIZERS 
 * Jun Liu, Singapore University of Technology and Design
