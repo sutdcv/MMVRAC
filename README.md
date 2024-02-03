@@ -71,7 +71,6 @@ Track #12: Animal Pose Estimation for Protocol 1 (All animals)
 
 ## CHALLENGE TIMELINE  
 Date                          | Event
-
 ----------------------------- | -------------------------------------------
 
 05 February 2024 UTC 00:00:00 | Challenge starts                         
