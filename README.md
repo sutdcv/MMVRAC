@@ -8,7 +8,7 @@ Hence, we hope to further advance such developments in multi-modal video reasoni
 
 ## CHALLENGE DETAILS
 
-Register for the competition here: https://forms.office.com/r/yW5NWdWXxN
+Register for the competition here: [https://forms.office.com/r/yW5NWdWXxN](https://forms.office.com/r/yW5NWdWXxN)
 
 * Participants will take on any one of the tracks in [CHALLENGE TRACKS](#CHALLENGE-TRACKS). This means tackling any one of the tasks in the corresponding dataset (e.g., Spatiotemporal Action Localization using Chaotic World dataset). The models will be evaluated using the published test set and evaluation metrics found in each respective paper. Please see [CHALLENGE TRACKS](#CHALLENGE-TRACKS) section for more details on each task. 
   * The Grand Challenge is open to individuals from institutions of higher education, research institutes, enterprises, or other organizations.
@@ -69,14 +69,15 @@ Track #11: Animal Action Recognition
 Track #12: Animal Pose Estimation for Protocol 1 (All animals)
 
 ## CHALLENGE TIMELINE  
-Date                          | Event                                      
+Date                          | Event
 ----------------------------- | -------------------------------------------
-05 February 2024 UTC 00:00:00 | Challenge starts                           
+
+05 February 2024 UTC 00:00:00 | Challenge starts                         
 25 March 2024 UTC 23:59:00    | Deadline for [Challenge submission](#CHALLENGE-SUBMISSION-LINK)
 28 March 2024                 | Release of Challenge results
-06 April 2024 UTC 23:59:00    | Deadline for submitting invited papers 
-11 April 2024 UTC 23:59:00    | Notification of paper acceptance 
-01 May 2024                   | Deadline for camera-ready submission of accepted paper 
+06 April 2024 UTC 23:59:00    | Deadline for submitting invited papers
+11 April 2024 UTC 23:59:00    | Notification of paper acceptance
+01 May 2024                   | Deadline for camera-ready submission of accepted paper
 01 May 2024                   | Author Full Conference Registration
 
 
