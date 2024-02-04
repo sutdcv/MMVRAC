@@ -73,7 +73,7 @@ Track #12: Animal Pose Estimation for Protocol 1 (All animals)
 Date                          | Event
 ----------------------------- | -------------------------------------------
 
-05 February 2024 UTC 00:00:00 | Challenge starts                         
+06 February 2024 UTC 04:00:00 | Challenge starts                         
 **25 March 2024 UTC 23:59:00**| **Deadline for [Challenge submission](#challenge-submission-link)**
 28 March 2024                 | Release of Challenge results
 06 April 2024 UTC 23:59:00    | Deadline for submitting invited papers
