@@ -75,7 +75,6 @@ Date                          | Event
 
 06 February 2024 UTC 04:00:00 | Challenge starts [Registration Open](https://forms.office.com/r/yW5NWdWXxN)                     
 **25 March 2024 UTC 23:59:00**| **Deadline for [Challenge submission](#challenge-submission-link)**
-28 March 2024                 | Release of Challenge results
 06 April 2024 UTC 23:59:00    | Deadline for submitting invited papers
 11 April 2024 UTC 23:59:00    | Notification of paper acceptance
 01 May 2024                   | Deadline for camera-ready submission of accepted paper
@@ -87,20 +86,19 @@ Date                          | Event
 * Participants can utilize one or more modalities provided in the dataset for the task.
 * Participants can also use other datasets or pre-trained models etc to assist in the model development. 
 
-* Participants should submit the link to their code repository.
+* Participants should submit the link to their code repository and training data (if different from what we use).
   * Participants can upload their project (codes and models) to GitHub, Google Drive or any other online storage providers.
   * Participants are required to provide **runnable and reproducible codes**, and in particular, **(1) easy means to read in the data** directly by simply replacing the test data directory _DIR_DATA_TEST_ and **(2) easy means to seamlessly run the inference code with trained model**.
     * The codes should be in the form of notebook (Jupyter Notebook) or Python files (.py files).
     * The methods and codes need to be open-source and reproducible by others.
-    * This includes simple instructions to run the evaluation code, list of Python libraries / dependencies / pre-trained models that are required to be installed for the codes to run, and other relevant information / instructions / pre-trained models / codes etc to ensure the seamless execution of the codes.
+    * This includes simple instructions to run the evaluation code, list of Python libraries / dependencies / pre-trained models for the codes to run, and other relevant information / instructions / pre-trained models / training data and codes etc to ensure the seamless execution of the codes and that the same results can be reproduced by others.
     * The model should not be trained on any data from the test set. 
   * In cases whereby there are multiple submissions for the same task, only the last submission will be considered.
   * In the event of same results for the same task, the team with the earlier upload date and time will be considered as the winner. 
     
 ### Paper submission for the top submission of each track
 * The paper submission will follow [ICME 2024 guidelines](https://2024.ieeeicme.org/author-information-and-submission-instructions)
-* The top three teams of each track will be notified by 28 March 2024 as stated in [Challenge submission deadline](#challenge-timeline).
-  * These teams will need to submit the paper by 06 April 2024 as stated in [Challenge submission deadline](#challenge-timeline), submit the camera-ready paper by the author deadline, register for the conference (01 May 2024), and present at the conference; otherwise they will not be included in IEEE Xplore.
+* The top three teams of each track will need to submit the paper by 06 April 2024 as stated in [Challenge submission deadline](#challenge-timeline), submit the camera-ready paper by the author deadline, register for the conference (01 May 2024), and present at the conference; otherwise they will not be included in IEEE Xplore.
     * Length: Papers must be no longer than 6 pages, including all text, figures, and references. Submissions may be accompanied by up to 20 MB of supplemental material following the same guidelines as regular and special session papers.
     * Format: Workshop papers have the same format as regular papers. 
   * A Grand Challenge paper is covered by a full-conference registration only.
