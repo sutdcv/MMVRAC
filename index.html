@@ -16,8 +16,6 @@
     <!-- Navbar -->
     <div class="w3-top">
       <div class="w3-bar w3-theme-d2 w3-left-align w3-large">
-        <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
-        <a href="https://sutdcv.github.io/MMVRAC" class="w3-bar-item w3-button w3-padding-large w3-theme-d4"><i class="fa fa-home w3-margin-right"></i>Multi-Modal Video Reasoning and Analyzing Competition</a>
         <div class="w3-dropdown-hover w3-hide-small w3-left">
           <button class="w3-button w3-padding-large" title="Notifications"><i class="fa fa-bell"></i><span class="w3-badge w3-right w3-small w3-red">2</span></button>     
           <div class="w3-dropdown-content w3-card-4 w3-bar-block" style="width:500px">
@@ -29,9 +27,10 @@
             </a>
           </div>
         </div>
+        <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-theme-d2"><i class="fa fa-bars"></i></a>
+        <a href="https://sutdcv.github.io/MMVRAC" class="w3-bar-item w3-button w3-padding-large w3-theme-d4"><i class="fa fa-home w3-margin-right"></i>Multi-Modal Video Reasoning and Analyzing Competition</a>
       </div>
     </div>
-
     <!-- Page Container -->
     <div class="w3-container w3-content" style="max-width:1500px;margin-top:80px">
       <!-- The Grid -->
@@ -89,21 +88,19 @@
               </div>
             </div>
           </div>
-            
           <!-- End Left Column -->
         </div>
-        
         <!-- Middle Column -->
         <div class="w3-col m7">
-      <div class="w3-row-padding">
-        <div class="w3-col m12">
-          <div class="w3-card w3-round w3-white">
-            <div class="w3-container w3-padding w3-center">
-              <p>Participants are required to register their interest to participate in the Challenge. <a href="https://forms.office.com/r/uX4V7XDMD8"><button class="w3-button w3-block w3-theme-l4"><i class="fa fa-trophy" aria-hidden="true"></i> <b>Register for Challenge here</b></button></a></p>
+          <div class="w3-row-padding">
+            <div class="w3-col m12">
+              <div class="w3-card w3-round w3-white">
+                <div class="w3-container w3-padding w3-center">
+                  <p>Participants are required to register their interest to participate in the Challenge. <a href="https://forms.office.com/r/uX4V7XDMD8"><button class="w3-button w3-block w3-theme-l4"><i class="fa fa-trophy" aria-hidden="true"></i> <b>Register for Challenge here</b></button></a></p>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
           <div class="w3-container w3-card w3-white w3-round w3-margin">
             <br>
             <img src="https://www.w3schools.com/w3images/avatar2.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
@@ -112,9 +109,8 @@
             <br>
             <hr class="w3-clear">
             <div class="w3-card w3-round">
-            Click on the respective headers to view / collapse details
+              Click on the respective headers to view / collapse details
               <div class="w3-white">
-              
                 <button onclick="accordion('Challenge_Synopsis')" class="w3-button w3-block w3-theme-l1 w3-center"><i class="fa fa-info w3-margin-right" aria-hidden="true"></i><b>Challenge Synopsis</b></button>
                 <div id="Challenge_Synopsis" class="w3-hide w3-container">
                   <p>Given the enormous amount of multi-modal multi-media information that we encounter in our daily lives (including visuals, sounds, texts, and interactions with their surroundings), we humans process such information with great ease – we understand and analyze, think rationally and reason logically, and then predict and make sound judgments and informed decision based on various modalities of information available. </p>
@@ -131,6 +127,7 @@
                     <b><br>Track #1: Video Grounding
                     <br>Track #2: Animal Action Recognition
                     <br>Track #3: Animal Pose Estimation for Protocol 1 (All animals)</b>
+                    <img src="https://raw.githubusercontent.com/sutdcv/Animal-Kingdom/master/image/eg_ar.png" width="400px"/>
                   </p>
                   <p><b><a href="https://github.com/sutdcv/Chaotic-World">Chaotic World</a></b> (<a href="https://github.com/sutdcv/Chaotic-World">https://github.com/sutdcv/Chaotic-World</a>)
                     <br>This challenging multi-modal (video, audio, and text) video dataset that focuses on chaotic situations around the world comprises complex and dynamic scenes with severe occlusions and contains over 200,000 annotated instances for various tasks such as spatiotemporal action localization (i.e., spatially and temporally locate the action), behavioral graph analysis (i.e., analyze interactions between people), spatiotemporal event grounding (i.e., identifying relevant segments in long videos and localizing people, scene, and behavior-of-interest), and sound source localization (i.e., spatially locate the source of sound). This will promote deeper research into more robust models that capitalize various modalities and handle such complex human behaviors / interactions in dynamic and complex environments.
@@ -138,10 +135,12 @@
                     <br>Track #5: Behavioral Graph Analysis
                     <br>Track #6: Spatiotemporal Event Grounding
                     <br>Track #7: Sound Source Localization</b>
+                    <img src="https://www.researchgate.net/profile/Kian-Eng-Ong/publication/373692522/figure/fig1/AS:11431281186670455@1694003491574/Our-Chaotic-World-dataset-contains-complicated-graphs-of-actions-interactions-and-sound_W640.jpg" width="400px"/>
                   </p>
                   <p><b><a href="https://github.com/sutdcv/SUTD-TrafficQA">SUTD-TrafficQA</a></b> (<a href="https://github.com/sutdcv/SUTD-TrafficQA">https://github.com/sutdcv/SUTD-TrafficQA</a>)
                     <br>This traffic event-based multi-modal video reasoning dataset about the traffic scenes contains over 10,000 RGB video samples and 60,000 questions and answers about the traffic scene for video question-answering (i.e., answer questions according to the given videos) task. This will encourage deeper research into more robust models with low latency that can analyze human and vehicle behaviors in dynamic split-seconds scenarios, and will be useful for development of safer autonomous vehicles.
                     <b><br>Track #8: Video Question-Answering for Setting 1/4</b>
+                    <img src="https://raw.githubusercontent.com/sutdcv/SUTD-TrafficQA/master/imgs/featured.png" width="400px"/>
                   </p>
                   <p><b><a href="https://github.com/sutdcv/UAV-Human">UAV-Human</a></b> (<a href="https://github.com/sutdcv/UAV-Human">https://github.com/sutdcv/UAV-Human</a>)
                     <br>This human behavior analysis dataset contains more than 60,000 video samples (bird-eye views of people and actions taken from a UAV) for pose estimation (i.e., predicting the keypoints of the individual), skeleton-based action recognition (i.e. identifying the action of the individual based on keypoints), attribute recognition (i.e. identifying the features / characteristics of the individual), as well as person reidentification (i.e. matching a person&#39;s identity across various videos) tasks. This will facilitate human behavior analysis from different vantage points, and will be useful for the development and applications of UAVs. 
@@ -149,6 +148,7 @@
                     <br>Track #10: Skeleton-based Action Recognition
                     <br>Track #11: Attribute Recognition
                     <br>Track #12: Person Reidentification </b>
+                    <img src="https://raw.githubusercontent.com/sutdcv/UAV-Human/master/imgs/samples.png" width="400px"/>
                   </p>
                 </div>
               </div>
@@ -189,16 +189,13 @@
             </div>
             <hr class="w3-clear">
           </div>
-          
-          
           <div class="w3-container w3-card w3-white w3-round w3-margin">
             <br>
-            <img src="/w3images/avatar2.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+            <img src="https://www.w3schools.com/w3images/avatar2.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
             <span class="w3-right w3-opacity">25 March 2024</span>
             <h4><b>Submission Guidelines</b></h4>
             <br>
             <hr class="w3-clear">
-  
             <div class="w3-card w3-round">
               <div class="w3-white">
                 <button onclick="accordion('Code')" class="w3-button w3-block w3-theme-l1 w3-center"><i class="fa fa-file-code-o w3-margin-right" aria-hidden="true"></i><b>Code Submission Terms and Conditions</b></button>
@@ -242,15 +239,13 @@
                   </ul>
                 </div>
               </div>
-
             </div>
-                          <hr class="w3-clear">
+            <hr class="w3-clear">
           </div>
           <!-- End Middle Column -->
         </div>
         <!-- Right Column -->
         <div class="w3-col m2">
-
           <div class="w3-card w3-round w3-white">
             <button onclick="accordion('Timeline')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-calendar-check-o fa-fw w3-margin-right"></i><b>Timeline</b></button>
             <div id="Timeline" class="w3-show w3-container">
@@ -291,7 +286,7 @@
         
         if (x.className.indexOf("w3-hide") == -1) {
           x.className = x.className.replace("w3-show", "w3-hide");
- 
+      
         } 
         
       }
