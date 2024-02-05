@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>[2024 ICME Grand Challenge] Multi-Modal Video Reasoning and Analyzing Competition (MMVRAC)</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      html, body, h1, h2, h3, h4, h5, h6, h7, h8 {font-family: "Open Sans", sans-serif}
+    </style>
+  </head>
+  <body class="w3-theme-l5">
+    <!-- Navbar -->
+    <div class="w3-top">
+      <div class="w3-bar w3-theme-d2 w3-left-align w3-large">
+        <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+        <a href="https://sutdcv.github.io/MMVRAC" class="w3-bar-item w3-button w3-padding-large w3-theme-d4"><i class="fa fa-home w3-margin-right"></i>Multi-Modal Video Reasoning and Analyzing Competition</a>
+        <div class="w3-dropdown-hover w3-hide-small w3-left">
+          <button class="w3-button w3-padding-large" title="Notifications"><i class="fa fa-bell"></i><span class="w3-badge w3-right w3-small w3-red">2</span></button>     
+          <div class="w3-dropdown-content w3-card-4 w3-bar-block" style="width:500px">
+            <a href="https://forms.office.com/r/uX4V7XDMD8" class="w3-bar-item w3-button">
+              <h8>06 Feb 2024: Registration for MMVRAC Challenge opens and Challenge starts</h8>
+            </a>
+            <a href="https://forms.office.com/r/DAULcDhhYY" class="w3-bar-item w3-button">
+              <h8>25 Mar 2024: MMVRAC Challenge ends</h8>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Page Container -->
+    <div class="w3-container w3-content" style="max-width:1500px;margin-top:80px">
+      <!-- The Grid -->
+      <div class="w3-row">
+        <!-- Left Column -->
+        <div class="w3-col m3">
+          <!-- Alert Box -->
+          <div class="w3-container w3-display-container w3-round w3-theme-l4 w3-border w3-theme-border w3-margin-bottom w3-hide-small">
+            <span onclick="this.parentElement.style.display='none'" class="w3-button w3-theme-l3 w3-display-topright">
+            <i class="fa fa-remove"></i>
+            </span>
+            <p><strong>Hi!</strong></p>
+            <p>Will you be our next Grand Challenge winner?</p>
+          </div>
+          <!-- Profile -->
+          <div class="w3-card w3-round w3-white">
+            <div class="w3-container">
+              <h5 class="w3-center"><b>2024 MMVRAC Winners</b></h5>
+              <p class="w3-center">
+                <img src="https://www.w3schools.com/w3images/avatar3.png" class="w3-circle" style="height:80px;width:80px" alt="Avatar">
+                <img src="https://www.w3schools.com/w3images/avatar4.png" class="w3-circle" style="height:80px;width:80px" alt="Avatar">
+              </p>
+              <hr>
+              <p><i class="fa fa-pencil fa-fw w3-margin-right w3-text-theme"></i><b>This could be you! :)</b></p>
+              <p><i class="fa fa-birthday-cake fa-fw w3-margin-right w3-text-theme"></i>ICME 2024</p>
+            </div>
+          </div>
+          <br>
+          <!-- Accordion -->
+          <div class="w3-card w3-round">
+            <div class="w3-white">
+              <button onclick="accordion('Organizers')" class="w3-button w3-block w3-theme-l1 w3-center"><i class="fa fa-users fa-fw w3-margin-right"></i><b>Organizers</b></button>
+              <div id="Organizers" class="w3-show w3-container">
+                <p><b>Jun LIU</b><br>Singapore University of Technology and Design</p>
+                <p><b>Bingquan SHEN</b><br>DSO National Laboratories and National University of Singapore</p>
+                <p><b>Ping HU</b><br>Boston University</p>
+                <p><b>Kian Eng ONG</b><br>Singapore University of Technology and Design</p>
+                <p><b>Haoxuan QU</b><br>Singapore University of Technology and Design</p>
+                <p><b>Duo PENG</b><br>Singapore University of Technology and Design</p>
+                <p><b>Xun Long NG</b><br>Singapore University of Technology and Design</p>
+              </div>
+            </div>
+            <button onclick="accordion('Contact')" class="w3-button w3-block w3-theme-l1 w3-center"><i class="fa fa-envelope w3-margin-right"></i><b>Contact</b></button>
+            <div id="Contact" class="w3-hide w3-container">
+              <div class="w3-row w3-opacity">
+                <div class="w3">
+                  <button class="w3-button w3-block w3-green w3-section" title="Email">
+                    <a href="mailto:kianeng_ong@mymail.sutd.edu.sg">
+                      <i class="fa fa-envelope" aria-hidden="true">
+                        <h8>Email Kian Eng ONG</h8>
+                      </i>
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+            
+          <!-- End Left Column -->
+        </div>
+        
+        <!-- Middle Column -->
+        <div class="w3-col m7">
+      <div class="w3-row-padding">
+        <div class="w3-col m12">
+          <div class="w3-card w3-round w3-white">
+            <div class="w3-container w3-padding w3-center">
+              <p>Participants are required to register their interest to participate in the Challenge. <a href="https://forms.office.com/r/uX4V7XDMD8"><button class="w3-button w3-block w3-theme-l4"><i class="fa fa-trophy" aria-hidden="true"></i> <b>Register for Challenge here</b></button></a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+          <div class="w3-container w3-card w3-white w3-round w3-margin">
+            <br>
+            <img src="https://www.w3schools.com/w3images/avatar2.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+            <span class="w3-right w3-opacity">06 February 2024</span>
+            <h4><b>Challenge Details</b></h4>
+            <br>
+            <hr class="w3-clear">
+            <div class="w3-card w3-round">
+            Click on the respective headers to view / collapse details
+              <div class="w3-white">
+              
+                <button onclick="accordion('Challenge_Synopsis')" class="w3-button w3-block w3-theme-l1 w3-center"><i class="fa fa-info w3-margin-right" aria-hidden="true"></i><b>Challenge Synopsis</b></button>
+                <div id="Challenge_Synopsis" class="w3-hide w3-container">
+                  <p>Given the enormous amount of multi-modal multi-media information that we encounter in our daily lives (including visuals, sounds, texts, and interactions with their surroundings), we humans process such information with great ease – we understand and analyze, think rationally and reason logically, and then predict and make sound judgments and informed decision based on various modalities of information available. </p>
+                  <p>For machines to assist us in holistic understanding and analysis of events, or even to achieve such sophistication of human intelligence (e.g., Artificial General Intelligence (AGI) or even Artificial Super Intelligence (ASI)), they need to process visual information from real-world videos, alongside complementary audio and textual data, about the events, scenes, objects, their attributes, actions, and interactions.</p>
+                  <p>Hence, we hope to further advance such developments in multi-modal video reasoning and analyzing for different scenarios and real-world applications through this Grand Challenge using various challenging multi-modal datasets with different types of computer vision tasks (i.e., video grounding, spatiotemporal event grounding, video question answering, sound source localization, person reidentification, attribute recognition, pose estimation, skeleton-based action recognition, spatiotemporal action localization, behavioral graph analysis, animal pose estimation and action recognition) and multiple types of annotations (i.e., audio, visual, text). This Grand Challenge will culminate in the 2nd Workshop on Multi-Modal Video Reasoning and Analyzing Competition (MMVRAC). </p>
+                </div>
+              </div>
+              <div class="w3-white">
+                <button onclick="accordion('Challenge_Tracks')" class="w3-button w3-block w3-theme-l1 w3-center"><i class="fa fa-list-ol w3-margin-right" aria-hidden="true"></i><b>Challenge Tracks</b></button>
+                <div id="Challenge_Tracks" class="w3-show w3-container">
+                  <p>The Challenge Tracks are based on the following video datasets:</p>
+                  <p><b><a href="https://github.com/sutdcv/Animal-Kingdom">Animal Kingdom</a></b> (<a href="https://github.com/sutdcv/Animal-Kingdom">https://github.com/sutdcv/Animal-Kingdom</a>)
+                    <br>This animal behavioral analysis dataset comprises 50 hours of long videos with corresponding text descriptions of the scene, animal, and behaviors to localize the relevant temporal segments in long videos for video grounding (i.e., identifying relevant segments in long videos), 50 hours of annotated video sequences for animal action recognition (i.e. identifying the action of the animal), and 33,000 frames for animal pose estimation (i.e., predicting the keypoints of the animal) for a diversity of over 850 species. This will facilitate animal behavior analysis, which is especially important for wildlife surveillance and conservation.
+                    <b><br>Track #1: Video Grounding
+                    <br>Track #2: Animal Action Recognition
+                    <br>Track #3: Animal Pose Estimation for Protocol 1 (All animals)</b>
+                  </p>
+                  <p><b><a href="https://github.com/sutdcv/Chaotic-World">Chaotic World</a></b> (<a href="https://github.com/sutdcv/Chaotic-World">https://github.com/sutdcv/Chaotic-World</a>)
+                    <br>This challenging multi-modal (video, audio, and text) video dataset that focuses on chaotic situations around the world comprises complex and dynamic scenes with severe occlusions and contains over 200,000 annotated instances for various tasks such as spatiotemporal action localization (i.e., spatially and temporally locate the action), behavioral graph analysis (i.e., analyze interactions between people), spatiotemporal event grounding (i.e., identifying relevant segments in long videos and localizing people, scene, and behavior-of-interest), and sound source localization (i.e., spatially locate the source of sound). This will promote deeper research into more robust models that capitalize various modalities and handle such complex human behaviors / interactions in dynamic and complex environments.
+                    <b><br>Track #4: Spatiotemporal Action Localization
+                    <br>Track #5: Behavioral Graph Analysis
+                    <br>Track #6: Spatiotemporal Event Grounding
+                    <br>Track #7: Sound Source Localization</b>
+                  </p>
+                  <p><b><a href="https://github.com/sutdcv/SUTD-TrafficQA">SUTD-TrafficQA</a></b> (<a href="https://github.com/sutdcv/SUTD-TrafficQA">https://github.com/sutdcv/SUTD-TrafficQA</a>)
+                    <br>This traffic event-based multi-modal video reasoning dataset about the traffic scenes contains over 10,000 RGB video samples and 60,000 questions and answers about the traffic scene for video question-answering (i.e., answer questions according to the given videos) task. This will encourage deeper research into more robust models with low latency that can analyze human and vehicle behaviors in dynamic split-seconds scenarios, and will be useful for development of safer autonomous vehicles.
+                    <b><br>Track #8: Video Question-Answering for Setting 1/4</b>
+                  </p>
+                  <p><b><a href="https://github.com/sutdcv/UAV-Human">UAV-Human</a></b> (<a href="https://github.com/sutdcv/UAV-Human">https://github.com/sutdcv/UAV-Human</a>)
+                    <br>This human behavior analysis dataset contains more than 60,000 video samples (bird-eye views of people and actions taken from a UAV) for pose estimation (i.e., predicting the keypoints of the individual), skeleton-based action recognition (i.e. identifying the action of the individual based on keypoints), attribute recognition (i.e. identifying the features / characteristics of the individual), as well as person reidentification (i.e. matching a person&#39;s identity across various videos) tasks. This will facilitate human behavior analysis from different vantage points, and will be useful for the development and applications of UAVs. 
+                    <b><br>Track #9: Pose Estimation
+                    <br>Track #10: Skeleton-based Action Recognition
+                    <br>Track #11: Attribute Recognition
+                    <br>Track #12: Person Reidentification </b>
+                  </p>
+                </div>
+              </div>
+              <div class="w3-white">
+                <button onclick="accordion('Challenge_Details')" class="w3-button w3-block w3-theme-l1 w3-center"><i class="fa fa-book w3-margin-right" aria-hidden="true"></i><b>Challenge Details</b></button>
+                <div id="Challenge_Details" class="w3-show w3-container">
+                  <p><strong>Participants are required to register their interest to participate in the Challenge.</strong>
+                    <a href="https://forms.office.com/r/uX4V7XDMD8"><button class="w3-button w3-block w3-theme-l4"><i class="fa fa-trophy" aria-hidden="true"></i> <b>Register for Challenge here</b></button></a>
+                  <p><strong>Eligibility and Participation Benefits</strong></p>
+                  <p>The Grand Challenge is open to individuals from institutions of higher education, research institutes, enterprises, or other organizations.</p>
+                  <ul>
+                    <li>Each team can consist of a maximum of 6 members. The team can comprise individuals from different institutions or organizations.</li>
+                    <li>Participants can also participate as individuals.</li>
+                    <li>Participants will take on any one of the tracks or more than one track in the Challenge Tracks.</li>
+                  </ul>
+                  <ul>
+                    <li>All participants who successfully complete the Challenge by the Challenge deadline and adhere to the Submission Guidelines will receive a Certificate of Participation.</li>
+                    <li>
+                      The top three teams of each track are required to submit a paper and present at the MMVRAC workshop (oral or poster session).
+                      <ul>
+                        <li>They will be notified by the Organizers and are required to submit their paper for review by 06 April 2024.</li>
+                        <li>They will need to submit their camera-ready paper by 11 April 2024, register for the conference by 01 May 2024, and present at the conference; otherwise they their paper will not be included in IEEE Xplore.</li>
+                        <li>A Grand Challenge paper is covered by a full-conference registration only.</li>
+                        <li>They will receive the Winners' Certificate and their work (link to their training data, code, and model repositories) will be featured on this website.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <p><strong>Evaluation Metric and Judging Criteria</strong></p>
+                  <p>The evaluation metric of each task follows the metric indicated in the original paper.</p>
+                  <ul>
+                    <li>In cases of task whereby there are sub-tasks, the sub-task is specified in the Challenge track.</li>
+                    <li>In cases whereby there are a few evaluation metrics for the task, the combination of all metrics will be taken into consideration to evaluate the robustness of the model.</li>
+                    <li>In cases whereby there are multiple submissions for the same task, only the last submission will be considered.</li>
+                    <li>In the event of same results for the same task, the team with the earlier upload date and time will be considered as the winner.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <hr class="w3-clear">
+          </div>
+          
+          
+          <div class="w3-container w3-card w3-white w3-round w3-margin">
+            <br>
+            <img src="/w3images/avatar2.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+            <span class="w3-right w3-opacity">25 March 2024</span>
+            <h4><b>Submission Guidelines</b></h4>
+            <br>
+            <hr class="w3-clear">
+  
+            <div class="w3-card w3-round">
+              <div class="w3-white">
+                <button onclick="accordion('Code')" class="w3-button w3-block w3-theme-l1 w3-center"><i class="fa fa-file-code-o w3-margin-right" aria-hidden="true"></i><b>Code Submission Terms and Conditions</b></button>
+                <div id="Code" class="w3-show w3-container">
+                  <p><strong>Code Submission Terms and Conditions</strong></p>
+                  <p>Participants are to adhere to the following terms and conditions. Failure to do so will result in disqualification from the Challenge.</p>
+                  <ul>
+                    <li>Participants can utilize one or more modalities provided in the dataset for the task.</li>
+                    <li>Participants can also use other datasets or pre-trained models etc.</li>
+                    <li>The model should not be trained on any data from the test set.</li>
+                  </ul>
+                  <ul>
+                    <li>
+                      Participants are required to submit their results the link to their training data, code, and model repositories by the Challenge submission deadline.
+                      <ul>
+                        <li>The codes need to be <strong><u>open-source</u></strong> and the same results can be <strong><u>reproduced</u></strong> by others. Hence, the submission should include:</li>
+                      </ul>
+                    </li>
+                    <li>list of Python libraries / dependencies for the codes</li>
+                    <li>pre-training / training data (if different from what we provided) and pre-processing or pre-training codes</li>
+                    <li>training and inference codes</li>
+                    <li>trained model</li>
+                    <li>
+                      documentation / instruction / other relevant information to ensure the seamless execution of the codes (e.g., easy means to read in test data directly by simply replacing the test data directory <em>DIR_DATA_TEST</em>)
+                      <ul>
+                        <li>Participants can upload their project (codes and models) to GitHub, Google Drive or any other online storage providers.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <ul></ul>
+                </div>
+              </div>
+              <div class="w3-white">
+                <button onclick="accordion('Paper')" class="w3-button w3-block w3-theme-l1 w3-center"><i class="fa fa-paperclip w3-margin-right" aria-hidden="true"></i><b>Paper Submission</b></button>
+                <div id="Paper" class="w3-hide w3-container">
+                  <p><strong>Paper Submission</strong></p>
+                  <ul>
+                    <li>The paper submission will follow the ICME 2024 guidelines (<a href="https://2024.ieeeicme.org/author-information-and-submission-instructions">https://2024.ieeeicme.org/author-information-and-submission-instructions</a>)</li>
+                    <li>Length: Papers must be no longer than 6 pages, including all text, figures, and references. Submissions may be accompanied by up to 20 MB of supplemental material following the same guidelines as regular and special session papers.</li>
+                    <li>Format: Workshop papers have the same format as regular papers.</li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+                          <hr class="w3-clear">
+          </div>
+          <!-- End Middle Column -->
+        </div>
+        <!-- Right Column -->
+        <div class="w3-col m2">
+
+          <div class="w3-card w3-round w3-white">
+            <button onclick="accordion('Timeline')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-calendar-check-o fa-fw w3-margin-right"></i><b>Timeline</b></button>
+            <div id="Timeline" class="w3-show w3-container">
+              <p><b>06 February 2024</b><br><i class="fa fa-trophy" aria-hidden="true"></i> <a href="https://forms.office.com/r/uX4V7XDMD8">Registration opens and Challenge starts</a></p>
+              <p><b>25 March 2024<br>UTC 23:59:00</b><br><i class="fa fa-upload" aria-hidden="true"></i> <a href="https://forms.office.com/r/DAULcDhhYY">Deadline for Challenge submission </a></p>
+              <p><b>06 April 2024<br>UTC 23:59:00</b><br>Deadline for submitting invited papers</p>
+              <p><b>11 April 2024<br>UTC 23:59:00</b><br>Notification of paper acceptance</p>
+              <p><b>01 May 2024</b><br>Deadline for camera-ready submission of accepted paper</p>
+              <p><b>01 May 2024</b><br>Author Full Conference Registration</p>
+            </div>
+          </div>
+          <!-- End Right Column -->
+        </div>
+        <!-- End Grid -->
+      </div>
+      <!-- End Page Container -->
+    </div>
+    <br>
+    <!-- Footer -->
+    <footer class="w3-container w3-theme-d3 w3-padding-16 w3-center">
+      <h5><a href="https://2024.ieeeicme.org/">[2024 ICME Grand Challenge]</a> Multi-Modal Video Reasoning and Analyzing Competition (MMVRAC)</h5>
+    </footer>
+    <footer class="w3-container w3-theme-d5 w3-center">
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </footer>
+    <script>
+      // Accordion
+      function accordion(id) {
+        var x = document.getElementById(id);
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+          x.previousElementSibling.className += " w3-theme-d1";
+        } else { 
+          x.className = x.className.replace("w3-show", "");
+          x.previousElementSibling.className = 
+          x.previousElementSibling.className.replace(" w3-theme-d1", "");
+        }
+        
+        if (x.className.indexOf("w3-hide") == -1) {
+          x.className = x.className.replace("w3-show", "w3-hide");
+ 
+        } 
+        
+      }
+      
+    </script>
+  </body>
+</html>
