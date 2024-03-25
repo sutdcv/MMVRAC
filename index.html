@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
       html, body, h1, h2, h3, h4, h5, h6, h7, h8 {font-family: "Open Sans", sans-serif}
+	  iframe {aspect-ratio: 16/9; height: 100%; width: 100%;}
+
     </style>
   </head>
   <body class="w3-theme-l5">
@@ -26,7 +28,7 @@
             -->
             
             <a href="https://forms.office.com/r/DAULcDhhYY" class="w3-bar-item w3-button w3-pink">
-              <h8>25 Mar 2024: <i class="fa fa-upload" aria-hidden="true"></i> MMVRAC Challenge ends and submit your codes here</h8>
+              <h8>31 Mar 2024: <i class="fa fa-upload" aria-hidden="true"></i> MMVRAC Challenge ends and submit your codes here</h8>
             </a>
           </div>
         </div>
@@ -131,6 +133,71 @@
               </div>
             </div>
           </div>
+          
+          <div class="w3-container w3-card w3-white w3-round w3-margin">
+            <br>
+            <img src="https://www.w3schools.com/w3images/avatar2.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+            <span class="w3-right w3-opacity">31 March 2024</span>
+            <h4><b>Challenge Leaderboard</b></h4>
+            <br>
+            <hr class="w3-clear">
+            <div class="w3-card w3-round">
+            </div>
+            
+			<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSK1q-8yhHIGStS1KmvABN6TNKVNh7aulmfIdLgt4zS8sZGiGWcD2MGrsqF6pvJLm-IwTVOfLgOOjo5/pubhtml?gid=1259736527&amp;single=true&amp;widget=true&amp;headers=false" width="500px"></iframe>
+            
+            <hr class="w3-clear">
+          </div>
+          
+          
+          <div class="w3-container w3-card w3-white w3-round w3-margin">
+            <br>
+            <img src="https://www.w3schools.com/w3images/avatar2.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+            <span class="w3-right w3-opacity">01 March 2024</span>
+            <h4><b>Submission Guidelines</b></h4>
+            <br>
+            <hr class="w3-clear">
+            <div class="w3-card w3-round">
+              <div class="w3-white">
+                <button onclick="accordion('Code')" class="w3-button w3-block w3-theme-l1 w3-center"><i class="fa fa-file-code-o w3-margin-right" aria-hidden="true"></i><b>Code Submission Terms and Conditions</b></button>
+                <div id="Code" class="w3-show w3-container">
+                  <p><strong>Code Submission Terms and Conditions</strong></p>
+                  <p>Participants are to adhere to the following terms and conditions. Failure to do so will result in disqualification from the Challenge.</p>
+                  <ul>
+                    <li>Participants can utilize one or more modalities provided in the dataset for the task.</li>
+                    <li>Participants can also use other datasets or pre-trained models etc.</li>
+                    <li>The model should not be trained on any data from the test set.</li>
+                    <li>Participants are required to submit their results the link to their training data, code, and model repositories by the Challenge submission deadline.
+		    <li>The codes need to be <strong><u>open-source</u></strong> and the same results can be <strong><u>reproduced</u></strong> by others. Hence, the submission should include:</li>
+			  <ul>
+				<li>list of Python libraries / dependencies for the codes</li>
+				<li>pre-training / training data (if different from what we provided) and pre-processing or pre-training codes</li>
+				<li>training and inference codes</li>
+				<li>trained model</li>
+				<li>documentation / instruction / other relevant information to ensure the seamless execution of the codes (e.g., easy means to read in test data directly by simply replacing the test data directory <em>DIR_DATA_TEST</em>)
+			  </ul>
+                      <li>Participants can upload their project (codes and models) to GitHub, Google Drive or any other online storage providers.</li>
+                  </ul>
+                  <a href="https://forms.office.com/r/DAULcDhhYY"><button class="w3-button w3-block w3-pink w3-round-xxlarge"><i class="fa fa-upload" aria-hidden="true"></i> <b>Submit your codes for Challenge here</b></button></a></p>
+                </div>
+              </div>
+              <div class="w3-white">
+                <button onclick="accordion('Paper')" class="w3-button w3-block w3-theme-l1 w3-center"><i class="fa fa-paperclip w3-margin-right" aria-hidden="true"></i><b>Paper Submission</b></button>
+                <div id="Paper" class="w3-show w3-container">
+                  <p><strong>Paper Submission</strong></p>
+                  <ul>
+		    <li>We will contact the top teams of each track to submit the paper.</li>
+                    <li>The paper submission will follow the ICME 2024 guidelines (<a href="https://2024.ieeeicme.org/author-information-and-submission-instructions">https://2024.ieeeicme.org/author-information-and-submission-instructions</a>)</li>
+                    <li>Length: Papers must be no longer than 6 pages, including all text, figures, and references. Submissions may be accompanied by up to 20 MB of supplemental material following the same guidelines as regular and special session papers.</li>
+                    <li>Format: Workshop papers have the same format as regular papers.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <hr class="w3-clear">
+          </div>
+          
+          
           <div class="w3-container w3-card w3-white w3-round w3-margin">
             <br>
             <img src="https://www.w3schools.com/w3images/avatar2.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
@@ -185,7 +252,8 @@
               <div class="w3-white">
                 <button onclick="accordion('Challenge_Details')" class="w3-button w3-block w3-theme-l1 w3-center"><i class="fa fa-book w3-margin-right" aria-hidden="true"></i><b>Challenge Details</b></button>
                 <div id="Challenge_Details" class="w3-show w3-container">
-                  <p><b>Participants are required to register their interest to participate in the Challenge.</b><a href="https://forms.office.com/r/uX4V7XDMD8"><button class="w3-button w3-block w3-teal w3-round-xxlarge"><i class="fa fa-trophy" aria-hidden="true"></i> <b>Register for Challenge here</b></button></a></p>
+                  <p><b>Participants are required to register their interest to participate in the Challenge.</b>
+                  <!--<a href="https://forms.office.com/r/uX4V7XDMD8"><button class="w3-button w3-block w3-teal w3-round-xxlarge"><i class="fa fa-trophy" aria-hidden="true"></i> <b>Register for Challenge here</b></button></a></p>-->
                   <p>The Grand Challenge is open to individuals from institutions of higher education, research institutes, enterprises, or other organizations.</p>
                   <ul>
                     <li>Each team can consist of a maximum of 6 members. The team can comprise individuals from different institutions or organizations.</li>
@@ -217,52 +285,7 @@
             </div>
             <hr class="w3-clear">
           </div>
-          <div class="w3-container w3-card w3-white w3-round w3-margin">
-            <br>
-            <img src="https://www.w3schools.com/w3images/avatar2.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
-            <span class="w3-right w3-opacity">25 March 2024</span>
-            <h4><b>Submission Guidelines</b></h4>
-            <br>
-            <hr class="w3-clear">
-            <div class="w3-card w3-round">
-              <div class="w3-white">
-                <button onclick="accordion('Code')" class="w3-button w3-block w3-theme-l1 w3-center"><i class="fa fa-file-code-o w3-margin-right" aria-hidden="true"></i><b>Code Submission Terms and Conditions</b></button>
-                <div id="Code" class="w3-show w3-container">
-                  <p><strong>Code Submission Terms and Conditions</strong></p>
-                  <p>Participants are to adhere to the following terms and conditions. Failure to do so will result in disqualification from the Challenge.</p>
-                  <ul>
-                    <li>Participants can utilize one or more modalities provided in the dataset for the task.</li>
-                    <li>Participants can also use other datasets or pre-trained models etc.</li>
-                    <li>The model should not be trained on any data from the test set.</li>
-                    <li>Participants are required to submit their results the link to their training data, code, and model repositories by the Challenge submission deadline.
-		    <li>The codes need to be <strong><u>open-source</u></strong> and the same results can be <strong><u>reproduced</u></strong> by others. Hence, the submission should include:</li>
-			  <ul>
-				<li>list of Python libraries / dependencies for the codes</li>
-				<li>pre-training / training data (if different from what we provided) and pre-processing or pre-training codes</li>
-				<li>training and inference codes</li>
-				<li>trained model</li>
-				<li>documentation / instruction / other relevant information to ensure the seamless execution of the codes (e.g., easy means to read in test data directly by simply replacing the test data directory <em>DIR_DATA_TEST</em>)
-			  </ul>
-                      <li>Participants can upload their project (codes and models) to GitHub, Google Drive or any other online storage providers.</li>
-                  </ul>
-                  <a href="https://forms.office.com/r/DAULcDhhYY"><button class="w3-button w3-block w3-pink w3-round-xxlarge"><i class="fa fa-upload" aria-hidden="true"></i> <b>Submit your codes for Challenge here</b></button></a></p>
-                </div>
-              </div>
-              <div class="w3-white">
-                <button onclick="accordion('Paper')" class="w3-button w3-block w3-theme-l1 w3-center"><i class="fa fa-paperclip w3-margin-right" aria-hidden="true"></i><b>Paper Submission</b></button>
-                <div id="Paper" class="w3-show w3-container">
-                  <p><strong>Paper Submission</strong></p>
-                  <ul>
-		    <li>We will contact the top teams of each track to submit the paper.</li>
-                    <li>The paper submission will follow the ICME 2024 guidelines (<a href="https://2024.ieeeicme.org/author-information-and-submission-instructions">https://2024.ieeeicme.org/author-information-and-submission-instructions</a>)</li>
-                    <li>Length: Papers must be no longer than 6 pages, including all text, figures, and references. Submissions may be accompanied by up to 20 MB of supplemental material following the same guidelines as regular and special session papers.</li>
-                    <li>Format: Workshop papers have the same format as regular papers.</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <hr class="w3-clear">
-          </div>
+
           <!-- End Middle Column -->
         </div>
         <!-- Right Column -->
@@ -271,8 +294,8 @@
             <button onclick="accordion('Timeline')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-calendar-check-o fa-fw w3-margin-right"></i><b>Timeline</b></button>
             <div id="Timeline" class="w3-show w3-container">
             
-              <p class="w3-block w3-round w3-padding-small w3-grey"><b>06 February 2024</b><br><i class="fa fa-trophy" aria-hidden="true"></i> <b>Registration opens and Challenge starts</b></p>
-              <p class="w3-block w3-round w3-padding-small w3-pink"><b>25 Mar 2024:<br>UTC 23:59:00</b><br><i class="fa fa-upload" aria-hidden="true"></i> <b><a href="https://forms.office.com/r/DAULcDhhYY">Deadline for Challenge submission and submit your codes here</a> </b></p>
+              <!--<p class="w3-block w3-round w3-padding-small w3-teal"><b>06 February 2024</b><br><i class="fa fa-trophy" aria-hidden="true"></i> <b>Registration opens and Challenge starts</b></p>-->
+              <p class="w3-block w3-round w3-padding-small w3-pink"><b>31 Mar 2024<br>UTC 23:59:00</b><br><i class="fa fa-upload" aria-hidden="true"></i> <b><a href="https://forms.office.com/r/DAULcDhhYY">Deadline for Challenge submission and submit your codes here</a> </b></p>
               <p class="w3-block w3-round w3-padding-small w3-white"><b>06 April 2024<br>UTC 23:59:00</b><br><i class="fa fa-upload" aria-hidden="true"></i> Deadline for submitting invited papers</p>
               <p class="w3-block w3-round w3-padding-small w3-white"><b>11 April 2024<br>UTC 23:59:00</b><br><i class="fa fa-envelope" aria-hidden="true"></i> Notification of paper acceptance</p>
               <p class="w3-block w3-round w3-padding-small w3-white"><b>01 May 2024</b><br><i class="fa fa-upload" aria-hidden="true"></i> Deadline for camera-ready submission of accepted paper</p>
